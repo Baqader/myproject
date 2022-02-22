@@ -1,0 +1,457 @@
+*{color: bisque;
+	padding: 0; margin: 0; 
+	
+}
+html{
+	height: 100%;
+}
+
+.top{
+    background-color: rgba(96, 65, 206, 0.986);
+    
+    color: white;
+    width: 100%;
+    height: 34px;
+    margin-bottom: 43px;
+    padding-top: 17px;
+    text-align: center;
+}
+
+
+.tel{
+    float: left;
+    margin-left: 180px;
+}
+.email{
+    margin-left: -275px;
+}
+.link{
+     
+      color: rgb(241, 240, 248);
+      float: right;
+      width: 199px;
+      margin-right: 123px;
+      margin-top: -17px;
+      margin-bottom: 7px;
+}
+
+.sp{
+    width: 100%;
+    height: 50px;
+    background-color:white; 
+}
+
+
+/*navبداية ال*/
+.first{background:url("../img/baq1.jpg") no-repeat;
+    background-size: cover;
+    
+    width: 100%;
+    
+    
+}
+
+.sec{
+    background-color: rgba(103, 92, 86, 0.288);
+}
+.main{
+	
+    margin: -62px 0px;
+    height: 303px;
+    margin-top: -43px;
+    padding-top: 18px;
+    padding: 0px;
+}
+nav{background-color: rgba(222, 184, 135, 0.2);
+	height: 61px;display: block; 
+    text-align: center; text-transform: uppercase;
+    padding-left: 332px;
+}
+nav a{ 
+	display: block;text-decoration: none;font-family: monospace;
+	font-weight: bold;font-size: 16pt; color: #ffffff;
+}
+
+nav ul{list-style: none;
+    
+    }
+nav ul li{float: left;
+    
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    background: #b149789e;
+    margin-left: 10px;
+    border: solid 2px rgb(104, 77, 77);
+    border-radius: 144px;
+    margin-top: 10px; }
+    
+nav ul ul li{position: relative;display: none; margin-top: 0; 
+             border-radius: 1px;border: solid 1px rgba(26, 25, 116, 0.678);
+             background-color: rgba(10, 8, 15, 0.342);
+            }
+nav ul ul ul{display: none;}
+nav ul li:hover ul li{ margin-left:0px; 
+	display: block; 
+}
+
+ nav ul ul li:hover ul{display: block;position: absolute;
+width: 140px;left: 140px;top: 0px;}
+/*navنهاية ال*/
+
+/*navألوان ال*/
+.a1:hover{
+    animation:g 2s linear infinite; 
+}
+@keyframes g{ 
+    10%{background-color:rgb(36, 22, 158) ;}
+    30%{background-color: rgb(43, 43, 39);}
+    70%{background-color: rgb(219, 24, 24)}
+}
+
+/*نهاية */
+
+/*sec1بداية */
+.sec1{
+    margin-top: 258px;
+    text-align: center;
+    height: 195px;
+}
+/*نهايه*/
+/*sideبداية*/
+.butto{
+    width: 100%;
+    height: 486px;
+    background-image: url(../img/hh.png);
+}
+.butto2{
+    width: 100%;
+    height: 486px;
+    background-image: url(../img/hhh.png);
+}
+.but11{
+    margin-top: 373px;
+    margin-left: 116px;
+    color: red;
+    font-size: 16px;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 17px;
+}
+.but22{
+    color: red;
+    margin-left: 208px;
+    font-size: 16px;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 17px;
+}
+.but33{
+    color: red;
+    margin-left: 207px;
+    font-size: 16px;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 17px;
+}
+.but21{
+    margin-top: 335px;
+    margin-left: 85px;
+    color: red;
+    font-size: 16px;
+    border-radius: 26px;
+    padding: 19px 8px 18px 9px;
+    background-color: royalblue;
+    
+}
+.hov:hover{
+    background-color: darkmagenta;
+    color: #000;
+}
+
+/*نهاية*/
+/*sec2بداية*/
+.sec2{
+    background-color: white;
+    width: 100%;
+    height: 358px;
+    padding-top: 35px;
+    padding-bottom: 34px;
+
+}
+.wh b{
+    color: #e8f60a;
+    font-size: 27px;
+    margin: -2px;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+
+}
+.baq1{margin-right: 60px;
+    width: 27%;
+    height: 249px;
+    margin-top: 11px;
+}
+.pb{
+    color: black;
+}
+.div2 .par1{color: black;
+    width: 352px;
+    margin-top: -4px;
+    float: left;
+    margin-left: 60px;
+    text-align: center;
+    border: solid 1px;
+    padding: 5px;
+    background-color: #1d18258a;
+}
+.div2 .par2{color: black;
+    float: right;
+    width: 353px;
+    margin-top: -4px;
+    margin-right: 68px;
+    text-align: center;
+    border: solid 1px;
+    padding: 5px;
+    background-color: #33256db3;
+}
+.div2 .par3{color: black;
+    float: right;
+    margin-top: -4px;
+    width: 352px;
+    margin-right: 64px;
+    text-align: center;
+    border: solid 1px;
+    padding: 5px;
+    background-color: #ac6f7d8a;
+}
+.but1{
+    margin-top: 13px;
+    /* margin: 20px; */
+    color: #f0eeee;
+    border-radius: 9px;
+    padding: 6px;
+    background-color: #9c2e3d;
+    font-weight: 900;
+}
+
+.but1:hover{
+    color: red;
+    background-color:white; 
+}
+/*نهاية*/
+/*sec3بداية*/
+.sec3{
+    border-radius: 18px;
+    border: solid #eefd0a;
+    padding: 29px;
+    float: right;
+    margin: 9px 8px 10px 2px;
+    width: 257px;
+    height: 891px;
+    background-color: #c7cb83b0;
+}
+.sec3p{
+    float: left;
+    color: #160101;
+    margin: 32px;
+    font-weight: 900;
+}
+video{
+       
+       margin-left: 3px;
+       background-color: #733232;
+       height: 261px;
+       width: 250px;
+       border: solid 2px;
+       border-radius: 43px;
+       padding: 5px;
+}
+/*نهاية*/
+/*sec4بداية */
+.sec4{
+    width: 1349px;
+    height: 405px;
+    background-image: url(../img/d1.jpg);
+    /* background-repeat: no-repeat; */
+    /* background: content-box; */
+    background-size: cover;
+    margin: 0;
+    padding: 0; 
+
+}
+.sec44{
+    height: 406px;
+    background-color: rgba(132, 111, 152, 0.62);
+}
+.sec4 h1 b{
+    color: #e9ec21fa;
+    font-size: 40px;
+    margin-left: 54px;
+    text-decoration: underline;
+    text-decoration-color: #2bd1e2;
+}
+.sec4d1{
+    width: 31%;
+    float: left;
+    padding-right: 17px;
+    height: 316px; 
+}
+.sec4d2{
+    width: 31%;
+    float: right;
+    height: 316px;  
+}
+.sec4d3{
+    width: 31%;
+    height: 316px;
+    margin-left: 463px;  
+}
+.sec4 img{
+    margin-top: 31px;
+    height: 114px;
+    width: 107px;
+    border-radius: 138px;
+    margin-left: 59px;
+}
+.sec4h3{
+    float: right;
+    margin-top: 60px;
+    margin-right: 125px;
+    
+}
+.sec4p1{
+    white-space: pre-line;
+    width: 355px;
+    margin: 32px;
+    color: black;
+    background-color: #f2eeee7a;
+    padding: 10px;
+}
+/*نهايه*/
+/*sec5بداية*/
+.sec5{
+    width: 1349px;
+    height: 365px;
+    background-image: url(../img/bk.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0; 
+
+}
+.sec55{
+    height: 365px;
+    background-color: rgba(210, 203, 216, 0.34);
+}
+.sec5d1{
+    float: left;
+    padding-left: 101px;
+    padding-top: 102px;
+    font-size: 29px;
+}
+.sec5d1 h1{
+    color: #15f426;
+    margin-bottom: 58px;
+}
+.sec5d2{
+    float: right;
+    margin-top: 192px;
+    margin-right: 124px;
+}
+
+.sec5d2 form input{color: red;
+    margin: 4px;
+    padding: 20px;
+    font-size: 19px;
+    padding-right: 88px;
+    border: solid 2px red;
+    border-radius: 15px;
+}
+.sec5d2 form button{
+    margin: 4px;
+    padding: 10px;
+    padding-bottom: 18px;
+    font-size: 30px;
+    background-color: #100889;
+    color: #f2061c;
+    border: solid 2px red;
+    border-radius: 15px;
+}
+/*نهايه*/
+/*footerبداية ال*/
+#list {
+    margin-top: 8px;
+    margin-left: 204px;
+    width: 84%;
+    line-height: 26px;
+    height: 106px;
+    /* margin-bottom: 48px; */
+    font-size: 30px;
+}
+.foterd1{
+    width: 27%;
+    margin-right: 15px;
+    float: left;
+}
+.foterd2{
+    width: 26%;
+    float: left;
+    margin-left: -44px;
+}
+.foterd3{
+    width: 15%;
+    float: left;
+    margin-left: 16px;
+}
+.foterd4{
+    width: 1%;
+    padding-left: 151px;
+    margin-left: 708px;
+}
+	#link {
+        
+        margin-bottom: 10px;
+    padding-right: 17px;
+    padding-left: 17px;
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #c0acee;
+    margin-right: 21px;
+    color: #1900ff;}
+   
+		
+			a {
+				text-decoration: none;}
+				a:hover{
+					
+					
+					border-radius: 9px;
+					text-decoration: underline  red;
+					
+			
+								}
+	#link:hover{color: yellow;
+        background-image: url("../img/rr.jpg");
+        
+    }
+    .finish{
+        color: #fbf9f9;
+    margin-top: 59px;
+    font-size: 23px;
+    padding-left: 310px;
+    padding-top: 20px;
+    background-color: #525162;
+    width: 77%;
+    height: 45px;
+    }
+	/* نهاية  */
+
+
+
+
+
+
+
+
+
+
